@@ -1,5 +1,5 @@
 require "without/version"
-require "activerecord"
+require "active_record"
 
 module Without
   def without_a(belongs_to, options={})
